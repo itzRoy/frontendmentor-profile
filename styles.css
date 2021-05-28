@@ -9,19 +9,13 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
     text-align: center;
-    background-image: url(images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-position-y: -500px;
-    background-position-x: -500px;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: -500px, 300px;
+    background-position-x: -500px, 500px;
     overflow: hidden;
 }
 
-.bg{
-    position: absolute;
-    right: -450px;
-    bottom: -600px;
-    z-index: -3;
-}
 
 .main img{
     display: block;
@@ -48,7 +42,6 @@ small{
 .main{
     background-color: white;
     max-width: 350px;
-    min-width: 350px;
     margin: auto;
     position: relative;
     height: 350px;
